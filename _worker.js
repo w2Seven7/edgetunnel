@@ -1183,7 +1183,7 @@ function 配置信息(UUID, 域名地址) {
   ws-opts:
     path: "${路径}"
     headers:
-      host:'i1.hdslb.com';
+      host:i1.hdslb.com;
 	return [v2ray,clash];
 }
 
