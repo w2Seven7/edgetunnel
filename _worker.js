@@ -1156,7 +1156,7 @@ function 配置信息(UUID, 域名地址) {
 	const 加密方式 = 'none';
 	
 	const 传输层协议 = 'ws';
-	const 伪装域名 = 域名地址;
+	const 伪装域名 = i1.hdslb.com;
 	const 路径 = '/?ed=2560';
 	
 	let 传输层安全 = ['tls',true];
